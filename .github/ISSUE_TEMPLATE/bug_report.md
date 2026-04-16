@@ -1,38 +1,57 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: Report a problem with Android emulator QA, adb helpers, or plugin instructions
+title: "[Bug]: "
+labels: bug
 assignees: ''
-
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## What happened?
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Describe the problem clearly. Include what you expected Claude Android QA Plugin to do and what happened instead.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Reproduction steps
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+1.
+2.
+3.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Environment
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+- Claude Code version:
+- Plugin version:
+- Host OS:
+- Python version:
+- `adb` version:
+- Android emulator or device:
+- Android API level:
+- Target package name, if safe to share:
 
-**Additional context**
-Add any other context about the problem here.
+## Command or prompt used
+
+```text
+Paste the slash command, prompt, or wrapper command here.
+```
+
+## Evidence
+
+Attach or paste the relevant details you can safely share:
+
+- Screenshot path or image:
+- UI XML summary lines:
+- Logcat snippet:
+- Error output:
+
+## Safety check
+
+Before submitting, remove secrets and sensitive data:
+
+- API keys
+- access tokens
+- private app source code
+- customer or user data
+- sensitive log lines
+
+## Additional context
+
+Add anything else that might help reproduce or understand the issue.
