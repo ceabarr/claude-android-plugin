@@ -1,0 +1,10 @@
+{
+  "name": "claude-android-qa-plugin",
+  "version": "1.0.0",
+  "description": "Android emulator QA tools for launching apps, inspecting UI, capturing screenshots, and collecting logs in Claude Code",
+  "author": {
+    "name": "Cea Barr"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["android", "emulator", "adb", "qa", "testing", "ui-inspection"]
+}
