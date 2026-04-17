@@ -10,6 +10,63 @@ I wanted a practical Claude Code plugin for Android emulator QA, so this is the 
 - Gradle or a project-specific build command when installing an app from source
 - A running Android emulator or connected Android device
 
+## Local Installation
+
+Until this plugin is listed in the Claude plugin directory, use it locally from GitHub.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ceabarr/claude-android-plugin.git
+```
+
+Start Claude Code with the plugin directory. This loads the plugin for that Claude Code session:
+
+```bash
+claude --plugin-dir /path/to/claude-android-plugin
+```
+
+For example:
+
+```bash
+claude --plugin-dir ~/Projects/claude-android-plugin
+```
+
+On Windows PowerShell, use the folder path where you cloned the repo:
+
+```powershell
+claude --plugin-dir C:\Users\you\Projects\claude-android-plugin
+```
+
+After Claude Code starts, check `/help` for the plugin command:
+
+```text
+/claude-android-qa-plugin
+```
+
+To update your local copy later:
+
+```bash
+cd /path/to/claude-android-plugin
+git pull
+```
+
+## Uninstalling the Local Plugin
+
+If you loaded the plugin with `--plugin-dir`, there is nothing permanent to uninstall from Claude Code. Start Claude Code without the `--plugin-dir` flag to stop loading it.
+
+To remove the local copy, delete the cloned repository:
+
+```bash
+rm -rf /path/to/claude-android-plugin
+```
+
+On Windows PowerShell:
+
+```powershell
+Remove-Item -Path C:\Users\you\Projects\claude-android-plugin -Recurse -Force
+```
+
 ## Plugin Contents
 
 - `skills/android-emulator-qa/`: contextual Android emulator QA workflow
